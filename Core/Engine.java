@@ -120,7 +120,6 @@ public class Engine {
 
     public void updateHud(World world, boolean lightsOn) {
         StdDraw.clear(Color.BLACK);
-
         int x = (int) StdDraw.mouseX();
         int y = (int) StdDraw.mouseY();
         TETile tile;
